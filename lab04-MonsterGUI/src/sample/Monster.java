@@ -17,6 +17,7 @@ public class Monster {
         this.def = def;
         this.maxhp = hp;
         this.imgPath = imgPath;
+        this.skill= skill;
 
 
     }

@@ -42,14 +42,12 @@ public class BattleController {
                 try {
                     m1Image.setImage(new Image(getClass().getResource(m1.getImgPath()).toURI().toString()));
                     m2Image.setImage(new Image(getClass().getResource(m2.getImgPath()).toURI().toString()));
-
                     gameController = new GameController(m1, m2);
                     nameMon1.setText(m1.getName());
                     nameMon2.setText(m2.getName());
                     pgBarMon1.setProgress((double) m1.getHp() / m1.getMaxhp());
                     pgBarMon2.setProgress((double) m2.getHp() / m2.getMaxhp());
                     setVisableHealTab();
-
                     attackBtn2.setDisable(true);
                     healBtn2.setDisable(true);
 
@@ -95,6 +93,7 @@ public class BattleController {
 
         if (gameController.getTurn() > 0) {
             gameController.healState((Integer.parseInt(healField1.getText())));
+            m1.setSkill();
             setVisableHealTab();
             if (Integer.parseInt(healField1.getText()) >= 0) {
                 displayForHeal();
@@ -102,7 +101,7 @@ public class BattleController {
 
         }
         else {
-
+            m2.setSkill();
             gameController.healState((Integer.parseInt(healField2.getText())));
             setVisableHealTab();
             if (Integer.parseInt(healField2.getText()) >= 0) {
@@ -122,6 +121,7 @@ public class BattleController {
         pgBarMon1.setProgress((double) m1.getHp() / m1.getMaxhp());
         pgBarMon2.setProgress((double) m2.getHp() / m2.getMaxhp());
         actionAttackMon();
+
 
     }
 
@@ -263,7 +263,7 @@ public class BattleController {
 
     class RemindTask extends TimerTask {
         public void run() {
-             if (gameController.getTurn() < 0 ) {
+            if (gameController.getTurn() < 0) {
 
                 try {
                     m1ActionImg.setVisible(false);
@@ -293,6 +293,7 @@ public class BattleController {
                         e.printStackTrace();
                     }
                 }
+
 
             if (m1.getHp() <= 0 || m2.getHp() <= 0) {
                     disableBtn();

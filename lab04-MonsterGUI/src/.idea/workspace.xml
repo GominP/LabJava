@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cbdf6f6-856a-4998-9b4e-a19183bdd3bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/lab04-MonsterGUI/META-INF/lab04-MonsterGUI.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/lab04-MonsterGUI/images/Bane_theBrave.zip.crdownload" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/lab04-MonsterGUI/images/get.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/lab04-MonsterGUI/images/tager/m.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/lab04-MonsterGUI/images/tager/m1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/lab04-MonsterGUI/images/tager/m2_3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/lab04-MonsterGUI/images/tager/m2_4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/lab04-MonsterGUI/images/yu.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/lab04-MonsterGUI/sample/BattleController$RemindTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab04-MonsterGUI/sample/BattleController$RemindTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../out/production/lab04-MonsterGUI/sample/BattleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/lab04-MonsterGUI/sample/BattleController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample/BattleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sample/BattleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sample/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/battle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/sample/battle.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/sample/Monster.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample/Monster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="-80">
+              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -63,25 +50,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
+            <state relative-caret-position="588">
               <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sample/BattleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="120" column="62" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="62" />
+            <state relative-caret-position="4170">
+              <caret line="278" column="49" selection-start-line="278" selection-start-column="49" selection-end-line="278" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../BattleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="921">
               <caret line="130" column="21" lean-forward="true" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -105,6 +95,9 @@
     <findStrings>
       <find>heal</find>
       <find>canA</find>
+      <find>change</find>
+      <find>sleep</find>
+      <find>Thread</find>
       <find>skip</find>
     </findStrings>
   </component>
@@ -114,8 +107,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sample/BattleController.java" />
         <option value="$PROJECT_DIR$/sample/GameController.java" />
+        <option value="$PROJECT_DIR$/sample/Monster.java" />
+        <option value="$PROJECT_DIR$/sample/BattleController.java" />
       </list>
     </option>
   </component>
@@ -155,6 +149,9 @@
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -248,13 +245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample/Monster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample/BattleMons.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -266,22 +256,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample/GameController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="588">
           <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample/BattleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="120" column="62" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../BattleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="921">
           <caret line="130" column="21" lean-forward="true" selection-start-line="130" selection-start-column="21" selection-end-line="130" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample/BattleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4170">
+          <caret line="278" column="49" selection-start-line="278" selection-start-column="49" selection-end-line="278" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
