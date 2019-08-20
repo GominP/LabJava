@@ -25,11 +25,11 @@ public class BattleController {
 
     private GameController gameController;
 
-    @FXML ImageView m1Image, m1ActionImg, m2Image, m2ActionImg, effectT1, healMon2, bgMode;
-    @FXML Button attackBtn1, attackBtn2, healBtn1, healBtn2, submitH1, submitH2, cancelH1, cancelH2;
-    @FXML Label nameMon1, nameMon2, hpText1, hpText2, hpLabel1, hpLabel2;
+    @FXML ImageView m1Image, m1ActionImg, m2Image, m2ActionImg, effectT1, healMon2, bgMode,m1DeadImg,m2DeadImg,winnerMon1,winnerMon2;
+    @FXML Button attackBtn1, attackBtn2, healBtn1, healBtn2, submitH1, submitH2, cancelH1, cancelH2,skipBtn2,skipBtn1;
+    @FXML Label nameMon1, nameMon2, hpText1, hpText2, hpLabel1, hpLabel2,skipText;
     @FXML ProgressBar pgBarMon1, pgBarMon2;
-    @FXML Text vs, roundText;
+    @FXML Text winText, vs, roundText;
     @FXML TextField healField1, healField2;
     @FXML Rectangle frame;
 
@@ -42,12 +42,14 @@ public class BattleController {
                 try {
                     m1Image.setImage(new Image(getClass().getResource(m1.getImgPath()).toURI().toString()));
                     m2Image.setImage(new Image(getClass().getResource(m2.getImgPath()).toURI().toString()));
+
                     gameController = new GameController(m1, m2);
                     nameMon1.setText(m1.getName());
                     nameMon2.setText(m2.getName());
                     pgBarMon1.setProgress((double) m1.getHp() / m1.getMaxhp());
                     pgBarMon2.setProgress((double) m2.getHp() / m2.getMaxhp());
                     setVisableHealTab();
+                    winText.setVisible(false);
                     attackBtn2.setDisable(true);
                     healBtn2.setDisable(true);
 
@@ -93,7 +95,6 @@ public class BattleController {
 
         if (gameController.getTurn() > 0) {
             gameController.healState((Integer.parseInt(healField1.getText())));
-            m1.setSkill();
             setVisableHealTab();
             if (Integer.parseInt(healField1.getText()) >= 0) {
                 displayForHeal();
@@ -101,7 +102,7 @@ public class BattleController {
 
         }
         else {
-            m2.setSkill();
+
             gameController.healState((Integer.parseInt(healField2.getText())));
             setVisableHealTab();
             if (Integer.parseInt(healField2.getText()) >= 0) {
@@ -117,10 +118,10 @@ public class BattleController {
 
         hpText1.setText(m1.toStringHp());
         hpText2.setText(m2.toStringHp());
-        roundText.setText("Round "+gameController.getRound());
         pgBarMon1.setProgress((double) m1.getHp() / m1.getMaxhp());
         pgBarMon2.setProgress((double) m2.getHp() / m2.getMaxhp());
         actionAttackMon();
+        roundText.setText("Round "+gameController.getRound());
 
 
     }
@@ -142,6 +143,7 @@ public class BattleController {
             m2ActionImg.setImage(new Image("/images/t2.gif"));
 
 
+
         }
 
 
@@ -152,13 +154,12 @@ public class BattleController {
 
         hpText1.setText(m1.toStringHp());
         hpText2.setText(m2.toStringHp());
-        roundText.setText("Round "+gameController.getRound());
         pgBarMon1.setProgress((double) m1.getHp() / m1.getMaxhp());
         pgBarMon2.setProgress((double) m2.getHp() / m2.getMaxhp());
         actionHealMon();
-
         healField1.clear();
         healField2.clear();
+        roundText.setText("Round "+gameController.getRound());
 
     }
 
@@ -172,11 +173,12 @@ public class BattleController {
             healMon2.setVisible(true);
             healMon2.setImage(new Image("/images/boom.gif"));
 
+
         }
 
     }
 
-   @FXML public void switchEnableBtn() {
+    @FXML public void switchEnableBtn() {
         if (gameController.getTurn() < 0) {
             attackBtn2.setDisable(false);
             healBtn2.setDisable(false);
@@ -263,7 +265,7 @@ public class BattleController {
 
     class RemindTask extends TimerTask {
         public void run() {
-            if (gameController.getTurn() < 0) {
+            if (gameController.getTurn() < 0 ) {
 
                 try {
                     m1ActionImg.setVisible(false);
@@ -278,31 +280,49 @@ public class BattleController {
             }
             else if (gameController.getTurn() > 0 ) {
 
-                    try {
-                        m2ActionImg.setVisible(false);
-                        effectT1.setVisible(false);
-                        healMon2.setVisible(false);
-                        m2Image.setVisible(true);
-                        m2Image.setImage(new Image(getClass().getResource(m2.getImgPath()).toURI().toString()));
-                        switchEnableBtn();
+                try {
+                    m2ActionImg.setVisible(false);
+                    effectT1.setVisible(false);
+                    healMon2.setVisible(false);
+                    m2Image.setVisible(true);
+                    m2Image.setImage(new Image(getClass().getResource(m2.getImgPath()).toURI().toString()));
+                    switchEnableBtn();
 
 
 
 
-                    } catch (URISyntaxException e) {
-                        e.printStackTrace();
-                    }
+                } catch (URISyntaxException e) {
+                    e.printStackTrace();
                 }
-
+            }
 
             if (m1.getHp() <= 0 || m2.getHp() <= 0) {
-                    disableBtn();
-
+                disableBtn();
+                roundText.setVisible(false);
+                if (m1.getHp() <= 0){
+                    m1Image.setVisible(false);
+                    m1DeadImg.setVisible(true);
+                    m2Image.setVisible(false);
+                    winText.setVisible(true);
+                    m1DeadImg.setImage(new Image("/images/venom4.gif"));
+                    winnerMon2.setImage(new Image("/images/t3.gif"));
+                    winText.setText("The Winner is "+ m2.getName());
                 }
-            timer.cancel(); //Terminate the timer thread
+                else if (m2.getHp() <= 0){
+                    m2Image.setVisible(false);
+                    m2DeadImg.setVisible(true);
+                    winText.setVisible(true);
+                    m1Image.setVisible(false);
+                    m2DeadImg.setImage(new Image("/images/thanos5.gif"));
+                    winnerMon1.setImage(new Image("/images/re.gif"));
+                    winText.setText("The Winner is "+ m1.getName());
+                }
+
             }
+
+            timer.cancel(); //Terminate the timer thread
         }
-
-
     }
 
+
+}

@@ -62,12 +62,11 @@ public class GameController {
         return m2;
     }
     public void changeTurn(){
-
+        if (getTurn() < 0){
+           round +=1;
+        }
         this.turn *= -1;
-        if (getTurn() > 0){
-            round++;
-        }}
-
+    }
     public int getTurn() { return turn; }
 
     public int getRound() { return round; }

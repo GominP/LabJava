@@ -62,5 +62,14 @@
             <Font name="Copperplate" size="31.0" />
          </font>
       </Text>
+      <ImageView fx:id="m1DeadImg" fitHeight="72.0" fitWidth="200.0" layoutX="21.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="m2DeadImg" fitHeight="72.0" fitWidth="200.0" layoutX="360.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="winnerMon2" fitHeight="262.0" fitWidth="322.0" layoutX="299.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="winnerMon1" fitHeight="150.0" fitWidth="200.0" layoutX="36.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="winText" fill="#ffd941" layoutX="207.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Copperplate" size="19.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>
