@@ -26,10 +26,10 @@ public class BattleController {
     private GameController gameController;
 
     @FXML ImageView m1Image, m1ActionImg, m2Image, m2ActionImg, effectT1, healMon2, bgMode;
-    @FXML Button attackBtn1, attackBtn2, healBtn1, healBtn2, submitH1, submitH2, cancelH1, cancelH2,skipBtn2,skipBtn1;
-    @FXML Label nameMon1, nameMon2, hpText1, hpText2, hpLabel1, hpLabel2,skipText;
+    @FXML Button attackBtn1, attackBtn2, healBtn1, healBtn2, submitH1, submitH2, cancelH1, cancelH2;
+    @FXML Label nameMon1, nameMon2, hpText1, hpText2, hpLabel1, hpLabel2;
     @FXML ProgressBar pgBarMon1, pgBarMon2;
-    @FXML Text winText, vs, roundText;
+    @FXML Text vs, roundText;
     @FXML TextField healField1, healField2;
     @FXML Rectangle frame;
 
@@ -118,6 +118,7 @@ public class BattleController {
 
         hpText1.setText(m1.toStringHp());
         hpText2.setText(m2.toStringHp());
+        roundText.setText("Round "+gameController.getRound());
         pgBarMon1.setProgress((double) m1.getHp() / m1.getMaxhp());
         pgBarMon2.setProgress((double) m2.getHp() / m2.getMaxhp());
         actionAttackMon();
@@ -151,9 +152,11 @@ public class BattleController {
 
         hpText1.setText(m1.toStringHp());
         hpText2.setText(m2.toStringHp());
+        roundText.setText("Round "+gameController.getRound());
         pgBarMon1.setProgress((double) m1.getHp() / m1.getMaxhp());
         pgBarMon2.setProgress((double) m2.getHp() / m2.getMaxhp());
         actionHealMon();
+
         healField1.clear();
         healField2.clear();
 
@@ -293,6 +296,7 @@ public class BattleController {
 
             if (m1.getHp() <= 0 || m2.getHp() <= 0) {
                     disableBtn();
+
                 }
             timer.cancel(); //Terminate the timer thread
             }
