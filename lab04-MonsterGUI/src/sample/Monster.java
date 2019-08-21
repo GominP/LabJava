@@ -36,7 +36,6 @@ public class Monster {
         return def;
     }
     public int getMaxhp(){ return maxhp; }
-    public int getSkill()
 
     public String getImgPath() { return imgPath; }
 
