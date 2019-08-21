@@ -48,6 +48,9 @@ public class BattleController {
                     nameMon2.setText(m2.getName());
                     pgBarMon1.setProgress((double) m1.getHp() / m1.getMaxhp());
                     pgBarMon2.setProgress((double) m2.getHp() / m2.getMaxhp());
+                    hpText1.setText(m1.toStringHp());
+                    hpText2.setText(m2.toStringHp());
+
                     setVisableHealTab();
                     winText.setVisible(false);
                     attackBtn2.setDisable(true);
@@ -75,11 +78,12 @@ public class BattleController {
         waitForAction(1);
 
 
+
     }
 
     @FXML
     public void showHandleHealBtnOnAction() {
-        if (gameController.getTurn() < 0) {
+        if (gameController.getTurn() > 0) {
             showHealTab();
             disableBtn();
         } else {
@@ -112,6 +116,7 @@ public class BattleController {
         }
         waitForAction(1);
 
+
     }
 
     public void display() {
@@ -121,13 +126,14 @@ public class BattleController {
         pgBarMon1.setProgress((double) m1.getHp() / m1.getMaxhp());
         pgBarMon2.setProgress((double) m2.getHp() / m2.getMaxhp());
         actionAttackMon();
-        roundText.setText("Round "+gameController.getRound());
+
+//        roundText.setText("Round "+gameController.getRound());
 
 
     }
 
     public void actionAttackMon() {
-        if (gameController.getTurn() < 0) {
+        if (gameController.getTurn() > 0) {
             m1Image.setVisible(false);
             m1ActionImg.setVisible(true);
             m1ActionImg.setImage(new Image("/images/v1.gif"));
@@ -157,14 +163,15 @@ public class BattleController {
         pgBarMon1.setProgress((double) m1.getHp() / m1.getMaxhp());
         pgBarMon2.setProgress((double) m2.getHp() / m2.getMaxhp());
         actionHealMon();
+
         healField1.clear();
         healField2.clear();
-        roundText.setText("Round "+gameController.getRound());
+//        roundText.setText("Round "+gameController.getRound());
 
     }
 
     public void actionHealMon() {
-        if (gameController.getTurn() < 0) {
+        if (gameController.getTurn() > 0) {
             m1Image.setVisible(false);
             m1ActionImg.setVisible(true);
             m1ActionImg.setImage(new Image("/images/v3.gif"));
@@ -179,7 +186,7 @@ public class BattleController {
     }
 
     @FXML public void switchEnableBtn() {
-        if (gameController.getTurn() < 0) {
+        if (gameController.getTurn() > 0) {
             attackBtn2.setDisable(false);
             healBtn2.setDisable(false);
 
@@ -265,7 +272,7 @@ public class BattleController {
 
     class RemindTask extends TimerTask {
         public void run() {
-            if (gameController.getTurn() < 0 ) {
+            if (gameController.getTurn() > 0 ) {
 
                 try {
                     m1ActionImg.setVisible(false);
@@ -274,11 +281,12 @@ public class BattleController {
                     switchEnableBtn();
 
 
+
                 } catch (URISyntaxException e) {
                     e.printStackTrace();
                 }
             }
-            else if (gameController.getTurn() > 0 ) {
+            else if (gameController.getTurn() < 0 ) {
 
                 try {
                     m2ActionImg.setVisible(false);
@@ -320,9 +328,12 @@ public class BattleController {
 
             }
 
+            gameController.changeTurn();
+            roundText.setText("Round "+gameController.getRound());
             timer.cancel(); //Terminate the timer thread
         }
     }
+
 
 
 }

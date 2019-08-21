@@ -25,7 +25,6 @@ public class GameController {
             System.out.println("Already Attack2");
 
         }
-        changeTurn();
 
 
 
@@ -41,7 +40,7 @@ public class GameController {
             System.out.println("Already Heal 2");
 
         }
-        changeTurn();
+
 
 
 
@@ -63,9 +62,11 @@ public class GameController {
     }
     public void changeTurn(){
         if (getTurn() < 0){
-           round +=1;
+            round++;
         }
+
         this.turn *= -1;
+
     }
     public int getTurn() { return turn; }
 

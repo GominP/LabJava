@@ -24,14 +24,14 @@
         </rowConstraints>
          <children>
             <Label text="NAME" />
-            <TextField fx:id="m1Name" text="Venom" GridPane.columnIndex="1" />
+            <TextField fx:id="m1Name" GridPane.columnIndex="1" />
             <Label text="HP" GridPane.rowIndex="1" />
             <Label text="ATK" GridPane.rowIndex="2" />
             <Label text="DEF" GridPane.rowIndex="3" />
             <Label text="IMAGE" GridPane.rowIndex="4" />
-            <TextField fx:id="m1Hp" text="100" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField fx:id="m1Atk" text="30" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField fx:id="m1Def" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="m1Hp" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="m1Atk" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="m1Def" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <TextField fx:id="m1Image" editable="false" text="/images/venom.gif" GridPane.columnIndex="1" GridPane.rowIndex="4" />
          </children>
       </GridPane>
@@ -50,14 +50,14 @@
          </rowConstraints>
          <children>
             <Label text="NAME" />
-            <TextField fx:id="m2Name" text="Thanos" GridPane.columnIndex="1" />
+            <TextField fx:id="m2Name" GridPane.columnIndex="1" />
             <Label text="HP" GridPane.rowIndex="1" />
             <Label text="ATK" GridPane.rowIndex="2" />
             <Label text="DEF" GridPane.rowIndex="3" />
             <Label text="IMAGE" GridPane.rowIndex="4" />
-            <TextField fx:id="m2Hp" text="100" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField fx:id="m2Atk" text="35" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <TextField fx:id="m2Def" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="m2Hp" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="m2Atk" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="m2Def" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <TextField fx:id="m2Image" editable="false" text="/images/t1.gif" GridPane.columnIndex="1" GridPane.rowIndex="4" />
          </children>
       </GridPane>

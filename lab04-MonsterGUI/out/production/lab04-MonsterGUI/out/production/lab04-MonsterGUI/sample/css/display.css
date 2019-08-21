@@ -1,0 +1,11 @@
+.progress-bar > .track {
+  -fx-text-box-border: forestgreen;
+  -fx-control-inner-background: palegreen;
+}
+.bgImg{
+     -fx-background-insets: 10;
+     -fx-background-radius: 10;
+     -fx-effect: dropshadow(three-pass-box, black, 10, 0, 0, 0);
+
+
+}

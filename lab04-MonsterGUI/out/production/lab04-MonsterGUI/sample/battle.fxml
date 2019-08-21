@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@css/display.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BattleController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@css/display.css" xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BattleController">
    <children>
       <ImageView fx:id="bgMode" fitHeight="292.0" fitWidth="778.0" layoutX="-78.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" styleClass="bgImg">
          <image>
@@ -27,7 +27,7 @@
          <font>
             <Font name="Lao MN" size="20.0" />
          </font></Label>
-      <Label fx:id="nameMon2" alignment="CENTER_RIGHT" contentDisplay="TEXT_ONLY" layoutX="412.0" layoutY="33.0" text="NameMonster2" textAlignment="CENTER" textFill="WHITE">
+      <Label fx:id="nameMon2" alignment="BOTTOM_RIGHT" contentDisplay="TEXT_ONLY" layoutX="412.0" layoutY="33.0" text="NameMonster2" textAlignment="RIGHT" textFill="WHITE">
          <font>
             <Font name="Lao MN" size="20.0" />
          </font></Label>
@@ -36,7 +36,7 @@
       <ImageView fx:id="m1ActionImg" fitHeight="171.0" fitWidth="411.0" layoutX="37.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView fx:id="m2ActionImg" fitHeight="150.0" fitWidth="200.0" layoutX="312.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" />
       <Rectangle fx:id="frame" arcHeight="5.0" arcWidth="5.0" fill="#506f8c10" height="120.0" layoutY="284.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" width="600.0" />
-      <Button fx:id="attackBtn1" layoutX="42.0" layoutY="299.0" mnemonicParsing="false" onAction="#handleAtkBtnOnAction" text="Attack" />
+      <Button fx:id="attackBtn1" layoutX="42.0" layoutY="299.0" mnemonicParsing="false" onAction="#handleAtkBtnOnAction" style="-: ;" text="Attack" />
       <Button fx:id="healBtn1" layoutX="198.0" layoutY="299.0" mnemonicParsing="false" onAction="#showHandleHealBtnOnAction" text="Heal" />
       <Button fx:id="attackBtn2" layoutX="360.0" layoutY="299.0" mnemonicParsing="false" onAction="#handleAtkBtnOnAction" text="Attack" />
       <Button fx:id="healBtn2" layoutX="513.0" layoutY="299.0" mnemonicParsing="false" onAction="#showHandleHealBtnOnAction" text="Heal" />
@@ -57,11 +57,19 @@
       <Button fx:id="submitH2" layoutX="448.0" layoutY="332.0" mnemonicParsing="false" onAction="#handleHealBtnOnAction" text="Submit" />
       <Button fx:id="cancelH2" layoutX="513.0" layoutY="332.0" mnemonicParsing="false" onAction="#cancelHeal" text="Cancel" />
       <ImageView fx:id="healMon2" fitHeight="150.0" fitWidth="245.0" layoutX="357.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true" />
-      <Text fx:id="roundText" fill="#ffe57d" layoutX="220.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0">
+      <Text fx:id="roundText" fill="#ffe57d" layoutX="245.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Round 1">
          <font>
             <Font name="Copperplate" size="31.0" />
          </font>
       </Text>
-      <Label fx:id="skipText" layoutX="295.0" layoutY="359.0" text="Monster skip" />
+      <ImageView fx:id="m1DeadImg" fitHeight="72.0" fitWidth="200.0" layoutX="21.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="m2DeadImg" fitHeight="72.0" fitWidth="200.0" layoutX="360.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="winnerMon2" fitHeight="262.0" fitWidth="322.0" layoutX="299.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="winnerMon1" fitHeight="150.0" fitWidth="200.0" layoutX="36.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fx:id="winText" fill="#ffd941" layoutX="207.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Copperplate" size="19.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>

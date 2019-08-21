@@ -8,7 +8,7 @@ public class Monster {
     private int maxhp;
     private String imgPath;
     private boolean isDead = true;
-    private int skill = 1;
+
 
     public Monster(String name, int hp, int atk, int def,String imgPath) {
         this.name = name;
@@ -17,7 +17,7 @@ public class Monster {
         this.def = def;
         this.maxhp = hp;
         this.imgPath = imgPath;
-        this.skill= skill;
+
 
 
     }
@@ -36,13 +36,12 @@ public class Monster {
         return def;
     }
     public int getMaxhp(){ return maxhp; }
-    public int getSkill() { return skill; }
+    public int getSkill()
 
     public String getImgPath() { return imgPath; }
 
     public String getHealImg(){return "/images/v3.gif";}
 
-    public void setSkill() { this.skill *= -1; }
     public void setImgPath(String imgPath) { this.imgPath = imgPath; }
 
     public boolean isDead() { return isDead; }
