@@ -1,50 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d644852-fa0d-4836-97b7-edfdc084c65e" name="Default Changelist" comment="">
+    <list default="true" id="3ddbc539-62a9-401e-962a-52d6ed292600" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/get/1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/get/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/get/boom.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/get/des.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/get/ezgif-4-82fd63c98018.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/get/t3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/get/thanos1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/get/thanos5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/get/venom.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/get/venom1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/get/venom3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/get/venom4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/thanos5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/images/thanos5.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/BattleController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/BattleController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/BattleController$RemindTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/BattleController$RemindTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/BattleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/BattleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab04-6110401561.zip" beforeDir="false" afterPath="$PROJECT_DIR$/lab04-6110401561.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/Monster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/Monster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/battle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/battle.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/get/1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/get/2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/get/boom.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/get/des.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/get/ezgif-4-82fd63c98018.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/get/t3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/get/thanos1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/get/thanos5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/get/venom.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/get/venom1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/get/venom3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/get/venom4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/battle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/battle.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/BattleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/BattleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/battle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/battle.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/artifacts/lab04_MonsterGUI_jar/lab04-MonsterGUI.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/.idea/artifacts/lab04_MonsterGUI_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/META-INF/lab04-MonsterGUI.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/boom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/e.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/re.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/t1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/t2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/t3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/thanos5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/v1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/v3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/venom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/venom1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/venom4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/lab04-MonsterGUI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/BattleController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/BattleController$RemindTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/BattleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/GameController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/Monster.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/battle.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/css/display.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/sample.fxml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,26 +48,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-          <provider editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Monster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -82,66 +62,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/BattleController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="317" column="17" selection-start-line="317" selection-start-column="17" selection-end-line="317" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/css/display.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="22" column="174" selection-start-line="22" selection-start-column="174" selection-end-line="22" selection-end-column="174" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/GameController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/battle.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-          <provider editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>rou</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/sample/GameController.java" />
-        <option value="$PROJECT_DIR$/src/sample/BattleController.java" />
-        <option value="$PROJECT_DIR$/src/sample/css/Button.css" />
-        <option value="$PROJECT_DIR$/src/sample/battle.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="23" />
     <option name="width" value="1612" />
@@ -154,6 +80,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,22 +99,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lab04-MonsterGUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab04-MonsterGUI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -201,44 +123,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
-      <module name="lab04-MonsterGUI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8d644852-fa0d-4836-97b7-edfdc084c65e" name="Default Changelist" comment="" />
-      <created>1566276075548</created>
+      <changelist id="3ddbc539-62a9-401e-962a-52d6ed292600" name="Default Changelist" comment="" />
+      <created>1566391617970</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566276075548</updated>
+      <updated>1566391617970</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="-8" y="23" width="1612" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29828325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25286624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -247,7 +149,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3313253" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -255,7 +157,6 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -267,14 +168,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/BattleMons.java" />
-    <entry file="file://$PROJECT_DIR$/src/sample/Monster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -282,51 +175,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="174" selection-start-line="22" selection-start-column="174" selection-end-line="22" selection-end-column="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/css/display.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/css/Button.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2257">
-          <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/BattleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="317" column="17" selection-start-line="317" selection-start-column="17" selection-end-line="317" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/battle.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-      <provider editor-type-id="text-editor" />
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
