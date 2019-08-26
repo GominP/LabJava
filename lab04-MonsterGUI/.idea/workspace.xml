@@ -2,45 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ddbc539-62a9-401e-962a-52d6ed292600" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../allLab/src/Guessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../allLab/src/Hangman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../allLab/src/MainHangman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../allLab/src/MainMasterMind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../allLab/src/MasterMind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../allLab/src/NumberGuessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../allLab/src/Stamp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/Fraction/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/TestKotlin/src/ControFlow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/TestKotlin/src/Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/TestKotlin/src/Test2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/TestKotlin/src/Test3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/TestKotlin/src/Test4.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/TestKotlin/src/Test5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/TestKotlin/src/Test6.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/TestKotlin/src/Test9.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/TestKotlin/src/filter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/lab5/src/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/lab5/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/lab5/src/FoodCenterCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/lab5/src/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/lab5/src/Grey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/lab5/src/MainProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../classroom/lab5/src/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classroom/Fraction/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../classroom/Fraction/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classroom/Fraction/src/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../classroom/Fraction/src/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../classroom/Fraction/src/MainPrograme.java" beforeDir="false" afterPath="$PROJECT_DIR$/../classroom/Fraction/src/MainProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab04-6110401561.zip" beforeDir="false" afterPath="$PROJECT_DIR$/lab04-6110401561.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/Monster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/Monster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/sample/sample.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/artifacts/lab04_MonsterGUI_jar/lab04-MonsterGUI.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/.idea/artifacts/lab04_MonsterGUI_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/META-INF/lab04-MonsterGUI.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/boom.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/e.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/re.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/t1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/t2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/t3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/thanos5.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/v1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/v3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/venom.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/venom1.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/images/venom4.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/lab04-MonsterGUI.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/BattleController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/BattleController$RemindTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/BattleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/GameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/Monster.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/battle.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/css/display.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/out/production/lab04-MonsterGUI/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/artifacts/lab04_MonsterGUI_jar/lab04-MonsterGUI.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/.idea/artifacts/lab04_MonsterGUI_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/META-INF/lab04-MonsterGUI.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/images/boom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/images/e.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/images/re.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/images/t1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/images/t2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/images/t3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/images/thanos5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/images/v1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/images/v3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/images/venom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/images/venom1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/images/venom4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/lab04-MonsterGUI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/sample/battle.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/sample/css/display.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab04-MonsterGUI/out/production/lab04-MonsterGUI/sample/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,62 +68,14 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="23" />
-    <option name="width" value="1612" />
-    <option name="height" value="816" />
-  </component>
+  <component name="ProjectId" id="1PriVYTzBmI9eX5ZvSuBoF6BuQZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="lab04-MonsterGUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab04-MonsterGUI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab04-MonsterGUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab04-MonsterGUI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab04-MonsterGUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab04-MonsterGUI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -123,6 +92,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="lab04-MonsterGUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -136,45 +125,18 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="23" width="1612" height="816" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25286624" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
